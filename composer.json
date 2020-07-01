@@ -1,0 +1,42 @@
+{
+    "name": "stephane888/public",
+    "description": "Gestionnaire de taches",
+    "type": "project",
+    "license": "MIT",
+    "config": {
+    	"platform": {
+        	"php": "7.3.0"
+    		}
+
+	},
+    "authors": [
+        {
+            "name": "stephane888",
+            "email": "kksasteph888@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+"repositories" : [{
+			"type" : "path",
+			"url" : "/siteweb/PluginsModules/stephane888/db-query"
+		}, {
+			"type" : "path",
+			"url" : "/siteweb/PluginsModules/stephane888/debug"
+		}
+	],
+    "require": {
+        "stephane888/db-query": "dev-master",
+        "stephane888/debug": "^0.1.0",
+        "symfony/http-foundation": "4.4.x-dev",
+        "phpauth/phpauth": "dev-master",
+        "symfony/stopwatch": "^5.2@dev",
+        "symfony/cache": "^5.2@dev",
+        "scssphp/scssphp": "dev-master"
+    },
+	"autoload" : {
+		"psr-4" : {
+			"Stephane888\\Authen\\" : "AppAuth/",
+			"Stephane888\\GestionTache\\" : "App/"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+Remarque 1 : le dossier racine doit etre nommer public. (public/index.php)

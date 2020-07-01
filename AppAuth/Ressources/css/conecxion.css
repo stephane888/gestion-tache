@@ -1,0 +1,11 @@
+.container-login{
+	min-height:600px;
+}
+.btn-classik{
+	border: 1px solid #ced4da;
+    background-color: #FFF;
+}
+.btn-classik:hover, .btn-classik:active{
+	background-color: #29a73d;
+	color:#FFF;
+} 
